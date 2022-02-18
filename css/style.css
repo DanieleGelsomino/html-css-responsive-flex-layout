@@ -50,24 +50,6 @@ a {
   width: 30%;
 }
 
-/* colors */
-
-.bg-green {
-  background-color: rgb(84, 198, 136);
-}
-
-.green {
-  color: rgb(84, 198, 136);
-}
-
-.light-green {
-  background-color: rgb(202, 240, 219);
-}
-
-.dark-green {
-  color: rgb(93, 138, 115);
-}
-
 .container {
   margin: 0 auto;
   width: 80%;
@@ -90,6 +72,7 @@ header {
   align-items: center;
   font-size: 0.7rem;
   color: white;
+  margin: 0 auto;
 }
 
 /******* / SEZIONE HEADER *******/
@@ -97,6 +80,82 @@ header {
 /******* SEZIONE MAIN *******/
 
 /* prima section  */
+
+/* colors */
+
+.bg-green {
+  background-color: rgb(84, 198, 136);
+}
+
+.green {
+  color: rgb(84, 198, 136);
+}
+
+.light-green {
+  background-color: rgb(202, 240, 219);
+}
+
+.dark-green {
+  color: rgb(93, 138, 115);
+}
+
+#blue {
+  color: rgb(21, 122, 232);
+}
+
+#light-blue {
+  color: rgb(79, 121, 163);
+}
+
+.bg-pink {
+  background-color: rgb(254, 210, 209);
+}
+
+.red {
+  color: rgb(253, 137, 138);
+}
+
+.bg-red {
+  background-color: rgb(253, 137, 138);
+}
+
+.bordeaux {
+  color: #9d706b;
+}
+
+.bg-yellow {
+  background-color: rgb(255, 231, 195);
+}
+
+.bg-dark-yellow {
+  background-color: rgb(255, 193, 100);
+}
+
+.dark-yellow {
+  color: rgb(255, 193, 100);
+}
+
+.gold {
+  color: rgb(190, 165, 124);
+}
+
+.bg-lilac {
+  background-color: rgb(213, 212, 244);
+}
+
+.bg-violet {
+  background-color: #9692e6;
+}
+
+.violet {
+  color: #9692e6;
+}
+
+.dark-violet {
+  color: rgb(99, 108, 151);
+}
+
+/* / colors */
 
 .card {
   margin-top: 20px;
@@ -121,18 +180,10 @@ header {
   font-size: 1.5rem;
 }
 
-#blue {
-  color: rgb(21, 122, 232);
-}
-
 .description {
   line-height: 25px;
   font-size: 1rem;
   padding-top: 20px;
-}
-
-#light-blue {
-  color: rgb(79, 121, 163);
 }
 
 .btn {
@@ -153,8 +204,18 @@ header {
 
 .small-img-example {
   border-radius: 10px;
-  width: 60px;
+  width: 70px;
   height: 80px;
+}
+
+.underline-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.bottom-info {
+  padding: 25px 0 50px;
+  text-align: center;
 }
 
 /* / prima section  */

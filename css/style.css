@@ -10,6 +10,11 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* utilities */
 
 .flex {

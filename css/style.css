@@ -241,7 +241,8 @@ section {
 /* second-section */
 
 .second-section,
-.fourth-section {
+.fourth-section,
+.sixth-section {
   background-color: rgb(150, 146, 230);
   padding-bottom: 50px;
 }
@@ -260,7 +261,8 @@ section {
 
 .underline-link-white {
   color: white;
-  text-decoration: underline;
+  border-bottom: 1px solid;
+  padding-top: 2px;
 }
 
 .link-img .bottom-info {
@@ -319,7 +321,8 @@ section {
 }
 
 .testimonial-text,
-.benefits-title {
+.benefits-title,
+.call-action-content {
   text-align: center;
 }
 
@@ -432,7 +435,7 @@ section {
   line-height: 35px;
 }
 
-.big-btn {
+.large-btn {
   border-radius: 5px;
   display: inline;
   padding: 10px;
@@ -443,6 +446,50 @@ section {
   padding: 10px 10px;
   margin: 20px 0 50px;
 }
+
+/* / fifth-section */
+
+/* sixth-section */
+
+.opacity-title {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.call-action-text {
+  padding-top: 80px;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.spoiler-alert {
+  font-size: 3.6rem;
+}
+
+.extralarge-btn {
+  border-radius: 40px;
+  padding: 25px;
+  font-weight: 550;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  margin: 0 10px;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 0.83rem;
+  text-align: center;
+}
+
+#terms-bull::before,
+#terms-bull::after {
+  content: "\2022";
+}
+
+/* / sixth-section */
 
 /******* / SEZIONE MAIN *******/
 

@@ -226,7 +226,9 @@ section {
 
 .underline-link {
   color: black;
-  text-decoration: underline;
+  border-bottom: 1px solid black;
+  padding-top: 2px;
+  cursor: pointer;
 }
 
 .bottom-info {
@@ -391,7 +393,7 @@ section {
   display: inline-block;
 }
 
-.f-size {
+.f-size-number {
   font-size: 3rem;
   font-weight: 550;
 }
@@ -399,6 +401,24 @@ section {
 /* / fourth-section */
 
 /* fifth-section */
+
+.about-title {
+  font-size: 3rem;
+  padding-top: 80px;
+}
+
+.long-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 40px;
+  padding-bottom: 25px;
+}
+
+.about-link-img {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 80px;
+}
 
 /******* / SEZIONE MAIN *******/
 

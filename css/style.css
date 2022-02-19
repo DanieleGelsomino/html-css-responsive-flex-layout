@@ -297,6 +297,33 @@ section {
   padding: 20px 30px;
 }
 
+.third-section {
+  height: 600px;
+}
+
+.testimonial-content {
+  align-items: center;
+  padding-top: 50px;
+}
+
+.title-section {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.testimonial-text {
+  text-align: center;
+}
+
+.big-title {
+  font-size: 2rem;
+}
+
+.big-description {
+  font-size: 1.2rem;
+}
 /* / second-section */
 
 /******* / SEZIONE MAIN *******/

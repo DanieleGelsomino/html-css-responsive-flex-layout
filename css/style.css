@@ -13,6 +13,7 @@ body {
 a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* utilities */
@@ -237,7 +238,8 @@ section {
 
 /* second-section */
 
-.second-section {
+.second-section,
+.fourth-section {
   background-color: rgb(150, 146, 230);
   padding-bottom: 50px;
 }
@@ -298,9 +300,9 @@ section {
   padding: 20px 30px;
 }
 
-.third-section {
-  height: 600px;
-}
+/* / second-section */
+
+/* third-section */
 
 .testimonial-content {
   align-items: center;
@@ -314,7 +316,8 @@ section {
   padding-bottom: 20px;
 }
 
-.testimonial-text {
+.testimonial-text,
+.benefits-title {
   text-align: center;
 }
 
@@ -351,7 +354,51 @@ section {
   margin-bottom: 20px;
 }
 
-/* / second-section */
+/* / third-section */
+
+/* fourth-section */
+
+.w-95 {
+  width: 95%;
+}
+
+.benefit-card {
+  padding-left: 20px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.benefits-title {
+  padding-top: 50px;
+  font-size: 1.8rem;
+}
+
+.title-benefit-card {
+  padding-top: 25px;
+}
+
+.des-benefit {
+  padding-bottom: 20px;
+}
+
+.btn-violet {
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.f-size {
+  font-size: 3rem;
+  font-weight: 550;
+}
+
+/* / fourth-section */
+
+/* fifth-section */
 
 /******* / SEZIONE MAIN *******/
 

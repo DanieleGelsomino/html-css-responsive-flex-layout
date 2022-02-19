@@ -50,13 +50,13 @@ a {
   width: 30%;
 }
 
+.f-weigth {
+  font-weight: 600;
+}
+
 .container {
   margin: 0 auto;
   width: 80%;
-}
-
-figure {
-  border-radius: 20px;
 }
 
 /******* SEZIONE HEADER *******/
@@ -155,7 +155,22 @@ header {
   color: rgb(99, 108, 151);
 }
 
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
 /* / colors */
+
+figure {
+  border-radius: 20px;
+}
+section {
+  align-items: center;
+}
 
 .card {
   margin-top: 20px;
@@ -219,6 +234,70 @@ header {
 }
 
 /* / prima section  */
+
+/* second-section */
+
+.second-section {
+  background-color: rgb(150, 146, 230);
+  padding-bottom: 50px;
+}
+
+.big-img-example {
+  border-radius: 40px;
+  width: 280px;
+  height: 250px;
+  margin-bottom: 100px;
+}
+
+.content-plan {
+  align-items: center;
+  padding-top: 100px;
+}
+
+.underline-link-white {
+  color: white;
+  text-decoration: underline;
+}
+
+.link-img .bottom-info {
+  text-align: left;
+}
+
+.plan-card {
+  padding-top: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.mid-img-example {
+  width: 250px;
+  height: 200px;
+  border-radius: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.italic-text {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 30px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.download {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.btn-circle {
+  border-radius: 50%;
+  padding: 20px 30px;
+}
+
+/* / second-section */
 
 /******* / SEZIONE MAIN *******/
 

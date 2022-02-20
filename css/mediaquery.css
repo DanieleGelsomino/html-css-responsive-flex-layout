@@ -156,19 +156,25 @@
 
   /* fifth-section */
 
-  .about-content.flex {
+  .about-content {
     flex-direction: row;
     justify-content: center;
-    width: 80%;
   }
 
   .text-about {
-    width: 70%;
+    padding-left: 10px;
+    width: 40%;
     display: flex;
     flex-direction: column;
   }
 
+  .about-link-img {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+
   .cit-about {
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,18 +184,23 @@
     width: 170px;
     height: 160px;
     margin-top: 80px;
+    margin-left: 20px;
   }
 
   .cit {
     font-size: 1rem;
-    width: 30%;
+    width: 50%;
     line-height: 25px;
   }
 
   .large-btn {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    padding: 10px 18px;
+    width: 50%;
+  }
 
-    padding: 5px;
+  .long-description {
+    line-height: 25px;
   }
 
   /* / fifth-section */

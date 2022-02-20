@@ -14,7 +14,7 @@
     align-self: flex-start;
     flex-grow: 1;
     margin-top: 40px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px;
     margin-right: 30px;
   }
@@ -41,6 +41,10 @@
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 70px;
   }
 
   /* / first-section */
@@ -124,12 +128,33 @@
   /* / third-section */
 
   /* fourth-section */
+  .flex-wrap {
+    display: grid;
+    grid-template-rows: 380px 380px 380px;
+    grid-template-columns: 250px 250px;
+    align-content: center;
+    gap: 10px;
+  }
+  .benefits-title {
+    margin-bottom: 40px;
+  }
+  .benefit-card {
+    margin-right: 5px;
+    margin-top: 10px;
+  }
 
+  .content-benefit {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .f-size-number-one {
+    font-size: 3rem;
+    font-weight: 550;
+  }
   /*  fourth-section */
 
   /* fifth-section */
-  .fifth-section .flex {
-  }
 
   .about-content.flex {
     flex-direction: row;

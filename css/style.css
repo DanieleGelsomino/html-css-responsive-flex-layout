@@ -16,6 +16,11 @@ a {
   cursor: pointer;
 }
 
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
 /* utilities */
 
 .flex {
@@ -54,33 +59,6 @@ a {
 .f-weigth {
   font-weight: 600;
 }
-
-.container {
-  margin: 0 auto;
-  width: 80%;
-}
-
-/******* SEZIONE HEADER *******/
-
-header {
-  background-color: rgb(0, 132, 253);
-}
-
-.navigation {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.7rem;
-  color: white;
-  margin: 0 auto;
-}
-
-/******* / SEZIONE HEADER *******/
-
-/******* SEZIONE MAIN *******/
-
-/* prima section  */
 
 /* colors */
 
@@ -166,6 +144,28 @@ header {
 
 /* / colors */
 
+/******* SEZIONE HEADER *******/
+
+header {
+  background-color: rgb(0, 132, 253);
+}
+
+.navigation {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+  color: white;
+  margin: 0 auto;
+}
+
+/******* / SEZIONE HEADER *******/
+
+/******* SEZIONE MAIN *******/
+
+/* prima section  */
+
 figure {
   border-radius: 20px;
 }
@@ -178,13 +178,13 @@ section {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
+  padding: 50px 0px;
 }
 
 .long-card {
   margin-top: 50px;
-  width: 300px;
   background-color: rgb(185, 219, 255);
   justify-content: space-between;
   align-items: flex-start;

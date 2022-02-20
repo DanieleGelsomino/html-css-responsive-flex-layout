@@ -1,1 +1,7 @@
 /* mobile first */
+
+@media screen and (min-width: 840px) {
+  .flex {
+    flex-direction: row;
+  }
+}

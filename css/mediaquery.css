@@ -5,16 +5,42 @@
 
   .first-section.flex {
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
   }
 
   .long-card {
-    width: 70%;
+    width: 40%;
+    align-self: flex-start;
+    flex-grow: 1;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 30px;
   }
 
   .card {
-    width: 25%;
+    width: 30%;
+    margin-right: 10px;
+    padding-bottom: 220px;
+    padding-top: 28px;
+    margin-top: 40px;
+  }
+
+  .card.bg-pink,
+  .card.bg-yellow,
+  .card.bg-lilac {
+    margin-top: 25px;
+  }
+
+  .small-img-example {
+    margin-bottom: 20px;
+  }
+
+  .link-center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
   }
 
   /* / first-section */
@@ -98,9 +124,6 @@
   /* / third-section */
 
   /* fourth-section */
-
-  .fourth-section-flex {
-  }
 
   /*  fourth-section */
 

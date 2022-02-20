@@ -160,6 +160,26 @@ header {
   margin: 0 auto;
 }
 
+.nav-link {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.9rem;
+  display: none;
+}
+
+.start-btn {
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+
+.start-btn a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 /******* / SEZIONE HEADER *******/
 
 /******* SEZIONE MAIN *******/
@@ -201,6 +221,7 @@ section {
   line-height: 25px;
   font-size: 1rem;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .btn {
@@ -232,7 +253,7 @@ section {
   cursor: pointer;
 }
 
-.bottom-info {
+.link-img .bottom-info {
   padding: 25px 0 50px;
   text-align: center;
 }

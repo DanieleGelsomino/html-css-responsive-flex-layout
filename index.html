@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -21,6 +21,14 @@
                 <div class="logo">
                     <h2>LOGO</h2>
                 </div>
+                <ul class="nav-link">
+                    <li><a href="#">Planning</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li class="start-btn bg-white"><a href="#">Get Started</a></li>
+
+                </ul>
                 <div class="menu">
                     <h2><a href="#">MENU</a></h2>
                 </div>
@@ -35,56 +43,68 @@
         <div class="container">
             <!-- prima section -->
             <section class="first-section flex">
-                <figure class="long-card flex">
-                    <div class="text w-90">
-                        <h3 id="blue" class="title-card">Get a demo application</h3>
-                        <p id="light-blue" class="description f-weigth">Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit.
-                            Vero autem
-                            soluta odit, tempora
-                            corrupti illo!</p>
-                    </div>
-                    <div class="btn">
-                        <a href="#">App Store</a>
-                    </div>
-                    <div class="img-example">
-                    </div>
-                </figure>
-                <figure class="card bg-light-green flex">
-                    <div class="small-img-example bg-green"></div>
-                    <div class="text w-90">
-                        <h3 class="title-card green">Clean Code</h3>
-                        <p class="description dark-green f-weigth">Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit.
-                            Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
-                    </div>
-                </figure>
-                <figure class="card bg-pink flex">
-                    <div class="small-img-example bg-red "></div>
-                    <div class="text w-90">
-                        <h3 class="title-card red">Web Design</h3>
-                        <p class="description bordeaux f-weigth">Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit.
-                            Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
-                    </div>
-                </figure>
-                <figure class="card bg-yellow flex">
-                    <div class="small-img-example bg-dark-yellow "></div>
-                    <div class="text w-90">
-                        <h3 class="title-card dark-yellow">Development</h3>
-                        <p class="description gold f-weigth">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
-                    </div>
-                </figure>
-                <figure class="card bg-lilac flex">
-                    <div class="small-img-example bg-violet "></div>
-                    <div class="text w-90">
-                        <h3 class="title-card violet">Branding</h3>
-                        <p class="description dark-violet f-weigth">Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit.
-                            Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
-                    </div>
-                </figure>
+                <div class="content-top">
+                    <figure class="long-card flex">
+                        <div class="text text-content-blue w-90">
+                            <h3 id="blue" class="title-card">Get a demo application</h3>
+                            <p id="light-blue" class="description des-first f-weigth">Lorem, ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit.
+                                Vero autem
+                                soluta odit, tempora
+                                corrupti illo!</p>
+                            <div class="btn">
+                                <a href="#">App Store</a>
+                            </div>
+                        </div>
+
+                        <div class="flex-img-example">
+                            <div class="img-example">
+                            </div>
+                        </div>
+                    </figure>
+                    <figure class="card bg-light-green flex">
+                        <div class="small-img-example bg-green"></div>
+                        <div class="text w-90">
+                            <h3 class="title-card green">Clean Code</h3>
+                            <p class="description dark-green f-weigth">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit.
+                                Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="content-bottom">
+                    <figure class="card bg-pink flex">
+                        <div class="small-img-example bg-red "></div>
+                        <div class="text w-90">
+                            <h3 class="title-card red">Web Design</h3>
+                            <p class="description bordeaux f-weigth">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit.
+                                Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
+                        </div>
+                    </figure>
+                    <figure class="card bg-yellow flex">
+                        <div class="small-img-example bg-dark-yellow "></div>
+                        <div class="text w-90">
+                            <h3 class="title-card dark-yellow">Development</h3>
+                            <p class="description gold f-weigth">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit.
+                                Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
+                        </div>
+                    </figure>
+                    <figure class="card bg-lilac flex">
+                        <div class="small-img-example  bg-violet "></div>
+                        <div class="text w-90">
+                            <h3 class="title-card violet">Branding</h3>
+                            <p class="description dark-violet f-weigth">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit.
+                                Rerum aliquid quae reiciendis odit. Eaque, quo.</p>
+                        </div>
+                    </figure>
+                </div>
+
 
             </section>
             <div class="link-center">
@@ -98,28 +118,33 @@
         <!-- seconda section -->
         <section class="second-section flex">
             <div class="container flex content-plan">
-                <div class="big-img-example bg-lilac"></div>
-                <div class="text">
+                <div class="text flex-column">
+                    <div class="big-img-example bg-lilac"></div>
+
                     <h3 class="title-plan white">Strategic Planning</h3>
                     <p class="description white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quaerat
                         vitae adipisci pariatur,
                         nihil nisi laboriosam soluta recusandae aperiam corporis, consequuntur dolores nulla doloribus
                         exercitationem?</p>
                     <div class="link-img">
-                        <p class="bottom-info white">Image from <a class="underline-link-white" href="#">Freepik</a></p>
+                        <p class="bottom-info bottom-info-left white">Image from <a class="underline-link-white"
+                                href="#">Freepik</a></p>
                     </div>
                 </div>
-                <figure class=" plan-card bg-white flex">
-                    <div class="mid-img-example bg-violet"></div>
-                    <div class="text w-90">
-                        <h3 class="title-card resize-title-plan">App Development</h3>
-                        <p class="description italic-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Aperiam sed, eaque rerum minus soluta exercitationem!</p>
-                    </div>
-                    <div class="btn-circle bg-violet">
-                        <a class="download" href="#">!</a>
-                    </div>
-                </figure>
+                <div class="text flex-column">
+                    <figure class=" plan-card bg-white flex">
+                        <div class="mid-img-example bg-violet"></div>
+                        <div class="text w-90">
+                            <h3 class="title-card resize-title-plan">App Development</h3>
+                            <p class="description italic-text"> Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Aperiam sed, eaque rerum minus soluta exercitationem!</p>
+                        </div>
+                        <div class="btn-circle bg-violet">
+                            <a class="download" href="#">!</a>
+                        </div>
+                    </figure>
+                </div>
             </div>
         </section>
         <!-- / seconda section -->
@@ -169,6 +194,7 @@
                 <div class="link-img">
                     <p class="bottom-info">Image from <a class="underline-link" href="#">Freepik</a></p>
                 </div>
+            </div>
         </section>
         <!-- / terza section -->
 
@@ -324,6 +350,7 @@
                 <p class="description copyright white">Copyright 2022 nicepage.com <a id="terms-bull"
                         class="underline-link-white" href="#"> Terms of
                         Service </a><a class="underline-link-white" href="#"> Privacy Policy</a></p>
+            </div>
         </section>
         <!-- / sesta section -->
 
@@ -341,6 +368,7 @@
                 <p><a class="underline-link-violet violet" href="#">Website Templates</a> created with <a
                         class="underline-link-violet violet" href="#">Website Software.</a></p>
             </div>
+        </div>
     </footer>
     <!-- / SEZIONE FOOTER -->
 

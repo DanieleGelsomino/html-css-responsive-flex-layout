@@ -192,7 +192,8 @@ section {
   padding: 20px 0 0 40px;
 }
 
-.title-card {
+.title-card,
+.title-plan {
   font-size: 1.5rem;
 }
 
@@ -255,7 +256,6 @@ section {
 }
 
 .content-plan {
-  align-items: center;
   padding-top: 100px;
 }
 

@@ -1,7 +1,148 @@
 /* mobile first */
 
-@media screen and (min-width: 840px) {
-  .flex {
+@media screen and (min-width: 837px) {
+  /* first-section */
+
+  .first-section.flex {
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
   }
+
+  .long-card {
+    width: 70%;
+  }
+
+  .card {
+    width: 25%;
+  }
+
+  /* / first-section */
+
+  /* second-section */
+
+  .big-img-example {
+    width: 600px;
+    height: 400px;
+    align-self: center;
+  }
+
+  .second-section {
+    flex-direction: column;
+  }
+
+  .text > .title-plan {
+    font-size: 3rem;
+  }
+
+  .text > .description,
+  .link-img {
+    font-size: 0.8rem;
+  }
+
+  .bottom-info {
+    padding: 20px 0;
+  }
+
+  .plan-card {
+    padding-top: 10px;
+  }
+
+  .mid-img-example {
+    width: 300px;
+    height: 250px;
+  }
+
+  .resize-title-plan {
+    font-size: 0.9rem;
+  }
+
+  .btn-circle.bg-violet {
+    padding: 10px 20px;
+  }
+
+  /* / second-section */
+
+  /* third-section */
+
+  .title-section {
+    font-size: 0.8rem;
+  }
+  .third-section {
+    margin-bottom: 20px;
+  }
+
+  .testimonial-card.flex {
+    flex-direction: row;
+    padding: 20px 0;
+  }
+
+  .img-circle {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 0;
+    margin: 20px 20px;
+  }
+
+  .descript-experience {
+    width: 90%;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .testimonial-name {
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  /* / third-section */
+
+  /* fourth-section */
+
+  .fourth-section-flex {
+  }
+
+  /*  fourth-section */
+
+  /* fifth-section */
+  .fifth-section .flex {
+  }
+
+  .about-content.flex {
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .text-about {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cit-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big-img-circle {
+    width: 170px;
+    height: 160px;
+    margin-top: 80px;
+  }
+
+  .cit {
+    font-size: 1rem;
+    width: 30%;
+    line-height: 25px;
+  }
+
+  .large-btn {
+    font-size: 0.8rem;
+
+    padding: 5px;
+  }
+
+  /* / fifth-section */
 }

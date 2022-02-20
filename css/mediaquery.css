@@ -204,4 +204,37 @@
   }
 
   /* / fifth-section */
+
+  /* sixth-section */
+
+  .feature-text {
+    font-size: 2rem;
+  }
+
+  .spoiler-alert {
+    font-size: 4rem;
+  }
+
+  .little-cit {
+    font-size: 0.8rem;
+    text-align: left;
+    width: 60%;
+  }
+
+  .align-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .extralarge-btn {
+    padding: 15px;
+    width: 40%;
+  }
+
+  .copyright,
+  .creation-info {
+    font-size: 0.7rem;
+  }
+
+  /* / sixth-section */
 }
